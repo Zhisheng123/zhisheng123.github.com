@@ -1,0 +1,66 @@
+header, main {
+    background-color: #fff;
+    max-width: 600px;
+    padding: 60px;
+    margin: auto;
+    
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    animation-name: bgcolorchange;
+    animation-duration: 300s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+main> div {
+    
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 200px;
+    grid-gap: 50px;
+    padding: 20px;
+  }
+
+     @keyframes bgcolorchange {
+    0%   {background-color:#DDD78D;}
+    25%  {background-color:#55868C;}
+    50%  {background-color:#DD7230;}
+    75%  {background-color:#372554;}
+    100% {background-color:#582B11;}
+  }
+
+  a {
+    padding: 5px;
+    font-size: 15px;
+   
+
+  }
+  #banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(216, 216, 216);
+    perspective: 100px;
+    perspective-origin: 50% 50%;
+}
+
+#banner div {
+    width: 80px;
+    height: 100px;
+    background-color: rgb(20, 228, 255);
+    
+}
+
+#banner div:hover {
+    background-color: rgb(255, 119, 203);
+    transform: perspective(50px) rotateX(2205deg) rotate(2160deg) scale(2);
+    transition: all 10s ease-out;
+}
