@@ -1,10 +1,25 @@
+  h2,  ul  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
 header, main {
     background-color: #fff;
     max-width: 600px;
-    padding: 60px;
+    padding: 10px 60px 100px 60px;
     margin: auto;
     
 }
+
+
+ 
+
+
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,19 +32,17 @@ body {
 
 
 main> div {
-    
-    text-align: center;
-
+   /* text-align: center;*/
     font-size: 20px;
     font-weight: bold;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100px 200px;
-    grid-gap: 50px;
+   /* grid-template-rows: 100px 200px; */
+    /*grid-gap: 50px;*/
     padding: 20px;
   }
 
-     @keyframes bgcolorchange {
+ @keyframes bgcolorchange {
     0%   {background-color:#DDD78D;}
     25%  {background-color:#55868C;}
     50%  {background-color:#DD7230;}
@@ -37,30 +50,89 @@ main> div {
     100% {background-color:#582B11;}
   }
 
-  a {
-    padding: 5px;
-    font-size: 15px;
-   
 
-  }
-  #banner {
+  
+  
+.banner {
     display: flex;
     justify-content: space-between;
     padding: 50px;
     background-color: rgb(216, 216, 216);
     perspective: 1000px;
     perspective-origin: 50% 50%;
+	grid-gap: 50px;
 }
 
-#banner div {
+.banner div {
     width: 80px;
     height: 100px;
     background-color: rgb(20, 228, 255);
    
 }
 
-#banner div:hover {
+.banner div:hover {
     background-color: rgb(255, 119, 203);
     transform: perspective(500px) rotateX(2205deg)  scale(2);
     transition: all 3s ease-out;
 }
+
+
+ul li{
+	list-style-type:none;
+	white-space: nowrap;
+}
+
+ul li > a {
+    width: 20px;
+    font-size: 15px;
+	color: #333333;
+	text-decoration: none;
+
+  }
+  
+ .grid-container {
+	 height: 400px;
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+.grid-container .section_long{
+	height: 100%;
+	text-align: center;
+	 padding: 10px 10px 50px 10px;
+}
+ 
+ 
+ .grid-container .section_short1{
+	 height: 20%;
+	 text-align: center;
+	 padding: 10px;
+	 
+ }
+ 
+.grid-container .section_short{
+	height: 40%;
+	text-align: center;
+	 padding: 10px;
+}
+
+.grid-container  .section_bgc1{
+	
+	background-color: #cacaca;
+	
+}
+
+.grid-container  .section_bgc2{
+	background-color: #acacac;
+	
+}
+
+.grid-container  .section_bgc3{
+	background-color: #6e6e6e;
+	
+}
+
+
