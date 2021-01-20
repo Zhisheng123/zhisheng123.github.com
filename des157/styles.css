@@ -11,7 +11,7 @@
 header, main {
     background-color: #fff;
     max-width: 600px;
-    padding: 10px 60px 100px 60px;
+    padding: 10px 60px 50px 60px;
     margin: auto;
     
 }
@@ -80,6 +80,7 @@ main> div {
 ul li{
 	list-style-type:none;
 	white-space: nowrap;
+	padding-bottom: 10px;
 }
 
 ul li > a {
@@ -88,7 +89,10 @@ ul li > a {
 	color: #333333;
 	text-decoration: none;
 
-  }
+ }
+ 
+ul li a:hover { color : #FFFFFF;}
+ 
   
  .grid-container {
 	 height: 400px;
@@ -102,7 +106,7 @@ ul li > a {
 .grid-container .section_long{
 	height: 100%;
 	text-align: center;
-	 padding: 10px 10px 50px 10px;
+	 padding: 10px 20px 50px 20px;
 }
  
  
@@ -121,18 +125,22 @@ ul li > a {
 
 .grid-container  .section_bgc1{
 	
-	background-color: #cacaca;
+	background-color: #CACACA;
 	
 }
 
 .grid-container  .section_bgc2{
-	background-color: #acacac;
+	background-color: #ACACAC;
 	
 }
 
 .grid-container  .section_bgc3{
-	background-color: #6e6e6e;
-	
+	background-color: #8b8b8b;
 }
+
+.grid-container  h2{
+	 padding-bottom: 16px;
+}
+
 
 
