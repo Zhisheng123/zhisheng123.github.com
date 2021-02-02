@@ -1,0 +1,114 @@
+body{
+	 background:url(img/bg.png);
+	 background-repeat:no-repeat;
+	 -webkit-background-origin:content-box;  
+	 background-origin:content-box;
+	 font-family: 'Roboto', sans-serif;
+}
+
+
+.login_form{
+	margin-top: 10.125rem;
+	margin-right: 6.5625rem;
+	width: 31.25rem;
+	height:36rem;
+	float: right;
+	background-color: #BFBABA;
+	border-radius:50px;
+}
+
+.feild_box{
+	margin: 0 auto;
+	width: 80%;
+	height: 2.5rem;
+	padding: 14px;
+ 
+	
+}
+.feild_box label{float: left;} 
+
+.feild_box input{
+	float: right;
+	line-height:2.5rem;
+	border-style:none;
+	outline: none;
+	text-indent: 10px;
+	border-radius:18px;
+	border: 1px solid #DBDBDB;
+} 
+
+
+.send_button input{
+	display: block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+	width: 100px;
+	height: 40px;
+	line-height:40px;
+	border-style:none;
+	outline: none;
+	border-radius:18px;
+	background-color: #FFF;
+	color: orange;
+	border: 1px solid orange;
+	 
+}
+ 
+ 
+#madlib{
+	padding: 3.75rem;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.5px;
+    line-height: 45px;
+	 
+}
+
+
+
+
+
+	
+	footer ul {
+			/* background: red; */
+			width: 100%;
+			margin-top: 800px;
+			
+	
+	}
+	
+	footer ul {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	
+	
+	}
+	
+	footer ul li {
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+	
+	
+		text-transform: uppercase;
+	
+		padding: 0 20px;
+
+		
+			
+	
+	}
+	
+
+	
+	
+	
+	
+	
+	
+
+	footer li a:hover {
+	  background: lightgray;
+	}
