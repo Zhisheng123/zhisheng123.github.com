@@ -22,3 +22,11 @@ footer {
     width: 300px;
 
 }
+
+img {
+    max-width: 60%;
+    display: block;
+   
+    border-radius: 10px;
+}
+
