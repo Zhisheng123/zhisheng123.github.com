@@ -34,16 +34,16 @@
 		let moimg=document.getElementById("moimg");
 		let caption=document.getElementById("caption");
 		let brief = document.getElementById("brief");
-		let imgDesc1 = "Miami-Zhisheng Wang ,2020.MIAMI.";
-		let imgDesc2 = "Miami-Zhisheng Wang,2020.MIAMI.";
-		let imgDesc3 = "Miami-Zhisheng Wang,2020.MIAMI.";
+		let imgDesc1 = "Miami-Zhisheng Wang ,2020.MIAMI . Pink baboon being hung up.";
+		let imgDesc2 = "Miami-Zhisheng Wang ,2020.MIAMI . Ride a scooter by the sea";
+		let imgDesc3 = "Miami-Zhisheng Wang ,2020.MIAMI . At miami airport";
 		realimg.onclick=function(){
 			motai.style.display="block"
 			moimg.src=this.src
 			caption.innerHTML=this.alt
-			if(moimg.src=="./img/1.jpg"){
+			if(moimg.src.includes("1.jpg")){
 				brief.innerHTML=imgDesc1;
-			}else if(moimg.src=="./img/2.jpg"){
+			}else if(moimg.src.includes("2.jpg")){
 				brief.innerHTML=imgDesc2;
 			}else{
 				brief.innerHTML=imgDesc3;
