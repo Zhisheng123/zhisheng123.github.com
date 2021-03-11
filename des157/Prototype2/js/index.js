@@ -51,9 +51,9 @@
 		let moimg=document.getElementById("moimg");
 		let caption=document.getElementById("caption");
 		let brief = document.getElementById("brief");
-		let imgDesc1 = "Miami-Pink baboon,2019.";
-		let imgDesc2 = "Miami-Cycling by the sea,2019.";
-		let imgDesc3 = "Miami-Airport,2019.";
+		let imgDesc1 = "China-Daming Lake Traditional Architecture,2015.";
+		let imgDesc2 = "China-Lotus pond moonlight,2015.";
+		let imgDesc3 = "China-Old menu,2015.";
 		realimg.onclick=function(){
 			motai.style.display="block"
 			moimg.src=this.src

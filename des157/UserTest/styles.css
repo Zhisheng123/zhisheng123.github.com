@@ -1,0 +1,32 @@
+section h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+}
+
+
+
+section {
+    margin: auto;
+    width: 1000px;
+    font-size: 25px;
+    
+
+}
+p{
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+footer {
+    margin: auto;
+    width: 300px;
+
+}
+
+img {
+    max-width: 60%;
+    display: block;
+   
+    border-radius: 10px;
+}
+
